@@ -39,3 +39,13 @@ body {
 .container>.row>div>p {
     font-size: 1rem;
 }
+
+.d-inline {
+    background: orange;
+    padding: 1rem;
+}
+
+.d-block {
+    background: blue;
+    padding: 1rem;
+}
