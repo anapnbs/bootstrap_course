@@ -11,8 +11,7 @@ body {
 
 .container {
     margin: 10px auto;
-    padding: 10px auto;
-    padding: 20px;
+    padding: 20px auto;
     border: 10px solid yellow;
 }
 
@@ -43,11 +42,11 @@ body {
 }
 
 .d-inline {
-    background: orange;
+    border: 10px solid #fff;
     padding: 1rem;
 }
 
 .d-block {
-    background: blue;
+    border: 10px solid #fff;
     padding: 1rem;
 }
