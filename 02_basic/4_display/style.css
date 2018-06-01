@@ -1,8 +1,3 @@
-*, *::before, *::after {
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-}
-
 body {
     margin: 5rem auto;
     background-color: purple;
@@ -19,28 +14,25 @@ body {
     text-transform: uppercase;
 }
 
-.container-fluid {
-    padding: 20px;
-    border: 10px solid orange;
-}
-
 .row {
     border: 10px solid lightblue;
 }
 
 .container>.row>div {
     padding: 20px 10px;
-    border: 10px solid orange;
-    font-size: 100px;
+    border: 10px solid white;
+    font-size: 50px;
     text-align: center;
 }
 
-.container>.row>div>p {
-    font-size: 1rem;
+.container>.row>div:nth-child(odd) {
+    background: orange;
 }
 
-.item {
-    border: 10px solid orange;
-    text-align: center;
-    font-size: 100px;
+.container>.row>div:nth-child(even) {
+    background: green;
+}
+
+.row-vh {
+    height: 500px;
 }
