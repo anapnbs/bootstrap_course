@@ -1,0 +1,41 @@
+body {
+    margin: 5rem auto;
+    background-color: purple;
+    color: white;
+}
+
+.container-fluid {
+    margin: 10px auto;
+    padding: 20px auto;
+    border: 10px solid yellow;
+}
+
+.container-fluid h1 {
+    text-transform: uppercase;
+}
+
+.container-fluid>div {
+    padding: 20px 10px;
+    border: 10px solid white;
+    font-size: 30px;
+    text-align: center;
+}
+
+.container-fluid>div:nth-child(odd) {
+    background: orange;
+}
+
+.container-fluid>div:nth-child(even) {
+    background: green;
+}
+
+.row-vh {
+    height: 500px;
+}
+
+.row-vh > div {
+    display: inline-block;
+    border: 5px solid orangered;
+    width:15%;
+    background: rgba(0, 0, 255, 0.2);
+}

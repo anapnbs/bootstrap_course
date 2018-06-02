@@ -1,0 +1,21 @@
+body {
+    margin: 5rem auto;
+    background-color: purple;
+    color: white;
+}
+
+.container {
+    margin: 10px auto;
+    padding: 20px auto;
+    border: 10px solid yellow;
+}
+
+small {
+    color: grey;
+}
+
+/* blockquote {
+    border-left: .5rem solid red;
+    padding-left: 1rem;
+    font-size: 1.1rem;
+} */

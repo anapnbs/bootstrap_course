@@ -1,0 +1,62 @@
+body {
+    margin: 5rem auto;
+    background-color: purple;
+    color: white;
+}
+
+.container {
+    margin: 10px auto;
+    padding: 20px auto;
+    border: 10px solid yellow;
+}
+
+.container h1 {
+    text-transform: uppercase;
+}
+
+.row, .row-vh, .row-vw, .row-nw {
+    border: 10px solid lightblue;
+}
+
+.container>.row>div,
+.container>.row-vh>div,
+.container>.row-vw>div,
+.container>.row-nw>div {
+    padding: 20px 10px;
+    border: 10px solid white;
+    font-size: 50px;
+    text-align: center;
+    height: auto;
+}
+
+.container>.row>div:nth-child(odd),
+.container>.row-vh>div:nth-child(odd),
+.container>.row-vw>div:nth-child(odd),
+.container>.row-nw>div:nth-child(odd) {
+    background: orange;
+}
+
+.container>.row>div:nth-child(even),
+.container>.row-vh>div:nth-child(even),
+.container>.row-vw>div:nth-child(even),
+.container>.row-nw>div:nth-child(even) {
+    background: green;
+}
+
+.row-vh {
+    height: 600px;
+}
+
+.row-vw {
+    height: 400px;
+}
+
+.row-nw {
+    height: 100%;
+}
+
+p {
+    margin: 0;
+    border: 5px solid red;
+    font-size: 2rem;
+}
