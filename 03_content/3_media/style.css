@@ -1,0 +1,39 @@
+body {
+    margin: 5rem auto;
+    background-color: purple;
+    color: white;
+}
+
+.container {
+    height: 100%;
+    margin: 10px auto;
+    padding: 20px auto;
+    /* border: 10px solid yellow; */
+}
+
+small {
+    color: grey;
+}
+
+p {
+    margin: 0;
+    border: 5px solid orangered;
+    font-size: 1.6rem;
+}
+
+span {
+    font-size: 1.2rem;
+    color: yellowgreen;
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+
+div.media {
+    margin: 4rem 0;
+}
+
+.media-footer {
+    margin: 2rem 0;
+}

@@ -1,0 +1,23 @@
+body {
+    margin: 5rem auto;
+}
+
+.container {
+    height: 100%;
+    margin: 10px auto;
+    padding: 20px auto;
+}
+
+.container>div {
+    border: 3px solid #ddd;
+}
+
+small {
+    color: grey;
+}
+
+p {
+    margin: .5rem 0;
+    padding: 1rem;
+    border: 5px solid #ddd;
+}
