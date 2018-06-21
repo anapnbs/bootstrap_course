@@ -29,6 +29,11 @@ body {
     background: green;
 }
 
+div:nth-child(8),
+div:nth-child(9) {
+    font-size: 20px;
+}
+
 .row-vh {
     height: 500px;
 }

@@ -36,3 +36,9 @@ body {
 .row-vh {
     height: 500px;
 }
+
+#display > div,
+#display > span {
+    border: 10px solid #fff; 
+    padding: 1rem;
+}
